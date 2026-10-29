@@ -140,12 +140,14 @@ class MainActivity : AppCompatActivity() {
             return
         }
         items.forEach { q ->
-            container.addView(historyRow("${q.queryDate}   →   $ ${copFormat.format(q.value)}"))
+            val formattedValue = "$ ${copFormat.format(q.value)}"
+            container.addView(historyRow(getString(R.string.history_item_format, q.queryDate, formattedValue)))
         }
     }
 
     private fun historyRow(text: String) = TextView(this).apply {
         this.text = text
+        setTextColor(resources.getColor(R.color.text_primary, theme))
         setPadding(0, 8, 0, 8)
     }
 
