@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <ns2:queryTCRMResponse xmlns:ns2="http://action.trm.services.generic.action.superfinanciera.nexura.sc.com.co/">
+      <return>
+        <id>12345</id>
+        <success>true</success>
+        <unit>COP</unit>
+        <validityFrom>2026-10-27T00:00:00-05:00</validityFrom>
+        <validityTo>2026-10-27T00:00:00-05:00</validityTo>
+        <value>3912.45</value>
+      </return>
+    </ns2:queryTCRMResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TRM Colombia</string>
+    <string name="subtitle">Tasa Representativa del Mercado (Superintendencia Financiera, servicio SOAP)</string>
+    <string name="date_label">Fecha (aaaa-mm-dd)</string>
+    <string name="date_picker_title">Elige la fecha de la TRM</string>
+    <string name="query_button">Consultar TRM</string>
+    <string name="result_detail">Vigente: %1$s a %2$s\nFecha consultada: %3$s\nOrigen: %4$s</string>
+    <string name="source_service">servicio SOAP</string>
+    <string name="source_cache">guardado en el teléfono</string>
+    <string name="converter_title">Conversor USD → COP</string>
+    <string name="usd_label">Dólares (USD)</string>
+    <string name="conversion_need_trm">Consulta primero una TRM.</string>
+    <string name="conversion_result">%1$s USD = %2$s COP</string>
+    <string name="history_title">Últimas consultas (disponibles sin conexión)</string>
+    <string name="history_empty">Aún no hay consultas guardadas.</string>
+    <string name="soap_show">Ver mensajes SOAP</string>
+    <string name="soap_hide">Ocultar mensajes SOAP</string>
+    <string name="soap_empty">Aún no se ha enviado ninguna solicitud.</string>
+    <string name="error_future_date">La fecha no puede ser futura.</string>
+    <string name="error_no_data">El servicio no tiene TRM para esa fecha. Prueba con otra.</string>
+    <string name="error_fault">El servicio respondió con un error (Fault).</string>
+    <string name="error_timeout">Se agotó el tiempo de espera. Revisa tu conexión e inténtalo de nuevo.</string>
+    <string name="error_no_connection">No hay conexión con el servicio. Verifica tu internet (¿modo avión?).</string>
+    <string name="error_http">El servidor respondió con un error HTTP.</string>
+    <string name="error_invalid">La respuesta del servicio no tiene el formato esperado.</string>
+</resources>

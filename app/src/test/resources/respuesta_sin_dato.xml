@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <ns2:queryTCRMResponse xmlns:ns2="http://action.trm.services.generic.action.superfinanciera.nexura.sc.com.co/">
+      <return>
+        <success>false</success>
+      </return>
+    </ns2:queryTCRMResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
